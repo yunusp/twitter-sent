@@ -1,0 +1,9 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "allowJs": false,
+        "target": "ES2015",
+        "moduleResolution": "node",
+        "module": "commonjs"
+    }
+}
