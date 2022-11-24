@@ -11,7 +11,8 @@ async function main() {
     });
     for await (const tweet of stream) {
         if (tweet.data?.lang == "en") {
-            file.write(`"${tweet.data?.created_at}", "${tweet.data?.text}"\n`);
+            file.write(`"${tweet.data?.created_at}"||,|| "${tweet.data?.text}"||\`||`);
+            
         }
     }
 }

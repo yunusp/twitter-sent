@@ -2,7 +2,7 @@
     "compileOnSave": true,
     "compilerOptions": {
         "allowJs": false,
-        "target": "ES2015",
+        "target": "ESNext",
         "moduleResolution": "node",
         "module": "commonjs"
     }
